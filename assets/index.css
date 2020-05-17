@@ -31,7 +31,7 @@
   padding: 1em 0;
 }
 
-.avatar-wrapper .img-top {
+/*.avatar-wrapper .img-top {
   display: none;
   position: absolute;
   top: 0;
@@ -47,7 +47,7 @@
 
 .avatar-wrapper:hover .img-back {
   opacity: 0;
-}
+}*/
 
 @media screen and (max-width: 1200px) {
   #skills {
@@ -59,18 +59,6 @@
   .avatar-wrapper {
     display: flex;
     margin: 0 auto;
-  }
-
-  .avatar-wrapper:hover .img-back {
-    opacity: 100%;
-  }
-
-  .avatar-wrapper:hover .img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
   }
 
   .avatar {
