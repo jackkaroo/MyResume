@@ -50,6 +50,12 @@
 
 }
 
+@media screen and (max-width: 1200px) {
+  #skills {
+    height: 14rem;
+  }
+}
+
 @media screen and (max-width: 770px) {
   .avatar-wrapper {
     display: flex;
@@ -77,5 +83,20 @@
   h2 + p {
     font-size: 1.2rem;
   }
+  .contacts {
+    max-width: 100%;
+  }
+
+  #skills {
+    width: 80%;
+    margin: 0 auto;
+    height: 8rem;
+  }
 }
 
+@media screen and (max-width: 550px) {
+  #skills {
+    height: 14rem;
+    width: 80%;
+  }
+}
